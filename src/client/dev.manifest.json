@@ -1,0 +1,11 @@
+{
+  "src/main.css": {
+    "file": "/src/assets/main.css"
+  },
+  "src/main.ts": {
+    "file": "/src/main.ts"
+  },
+  "/@vite/client": {
+    "file": "/@vite/client"
+  }
+}
