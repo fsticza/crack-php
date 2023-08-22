@@ -3,10 +3,12 @@ import './assets/main.css'
 
 import { createApp, type Component } from 'vue'
 import ListAlbumbs from './components/ListAlbums.vue'
+import Form from './components/Form.vue'
 // import App from './App.vue'
 
 const components: Record<string, Component> = {
-  'list-albums': ListAlbumbs
+  'list-albums': ListAlbumbs,
+  'form': Form,
 }
 
 Object.entries(components)
