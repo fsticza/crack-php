@@ -13,7 +13,7 @@ Replace the content rendered by php with small components moving from the inside
 - client related source files can be found under /src/client
 - a basic Vue3 + Vite app with a special vite.config.ts
 
-## Integration
+## [Integration](https://vitejs.dev/guide/backend-integration.html)
 - resources.php parses dev/non-dev manifest file
   - includes main.ts and main.css in local
   - in order to have the dist directory, run `npm run build`
