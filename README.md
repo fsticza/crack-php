@@ -1,4 +1,5 @@
 # How to start breaking a monolith app with Vue.js
+Replace the content rendered by php with small components moving from the inside out towards the layout. If only the routing is handled by the backend, transfer the routing logic to the frontend.
 ## Setup
 - docker-compose.yml contains basic environmeal setup (nginx + php8)
 - `docker-compose up` will start the environment
