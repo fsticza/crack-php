@@ -1,11 +1,11 @@
 <script setup lang="ts">
   console.log('Form.vue setup script')
   function onSubmit(ev: Event) {
-    event.preventDefault()
+    ev.preventDefault()
     const form = ev.target as HTMLFormElement
     if (!form.checkValidity()) {
-      event.preventDefault()
-      event.stopPropagation()
+      ev.preventDefault()
+      ev.stopPropagation()
     }
 
     form.classList.add('was-validated')
